@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('cachorro_introducao.webp'); /* Atualize o nome do arquivo conforme necessário */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Garante que a imagem de fundo ocupe toda a altura da tela */
+}
+
+.container {
+    text-align: center;
+    margin-top: 20%;
+}
+
+h1 {
+    color: #FF5733;
+}
+
+p {
+    color: #0D98BA;
+    margin-bottom: 20px;
+}
+
+.btn-play {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F4D03F;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-play:hover {
+    background-color: #F39C12;
+}
