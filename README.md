@@ -38,3 +38,7 @@ O objetivo principal do jogo é ajudar Caramelo a entregar todas as encomendas a
 ## Créditos
 
 O jogo "Caramelo of God" foi desenvolvido como parte de um projeto de entretenimento e aventura, inspirado nas incríveis histórias dos motoboys e em viagens emocionantes pelo Brasil, mundo e além!
+
+## Demostração
+
+Clique aqui (https://Cesar-AMS.github.io/caramelo_of_god.git)
