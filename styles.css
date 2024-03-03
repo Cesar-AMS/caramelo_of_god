@@ -6,26 +6,50 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh; /* Garante que a imagem de fundo ocupe toda a altura da tela */
+    animation: slide 20s linear infinite; /* Define a animação chamada "slide" */
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0% 0%; /* Posição inicial da imagem */
+    }
+    100% {
+        background-position: 100% 100%; /* Posição final da imagem */
+    }
 }
 
 .container {
-    text-align: center;
-    margin-top: 20%;
+    display: flex;
+    flex-direction: column; /* Coloca os elementos dentro da .container em coluna */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 h1 {
-    color: #FF5733;
+    font-size: 4em; /* Tornar o título mais largo */
+    background: linear-gradient(to right, rgba(255, 165, 0, 1), rgba(255, 69, 0, 1)); /* Gradiente de cor, começa com laranja e termina com vermelho escuro */
+    -webkit-background-clip: text; /* Permite que o gradiente seja aplicado ao texto */
+    -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o gradiente */
+    padding: 20px 40px; /* Espaçamento interno ao redor do título */
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease forwards; /* Animação de fade-in para o título */
 }
 
-p {
-    color: #0D98BA;
-    margin-bottom: 20px;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .btn-play {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #F4D03F;
+    padding: 15px 30px; /* Aumenta o tamanho do botão */
+    background-color: #333; /* Cor de fundo mais escura */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -33,5 +57,5 @@ p {
 }
 
 .btn-play:hover {
-    background-color: #F39C12;
+    background-color: #555; /* Cor de fundo mais escura quando hover */
 }
