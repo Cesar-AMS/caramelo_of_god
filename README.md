@@ -41,4 +41,4 @@ O jogo "Caramelo of God" foi desenvolvido como parte de um projeto de entretenim
 
 ## Demostração
 
-Clique aqui (https://Cesar-AMS.github.io/caramelo_of_god)
+Você pode acessar uma demonstração web deste projeto [aqui](https://Cesar-AMS.github.io/caramelo_of_god).
